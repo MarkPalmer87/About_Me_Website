@@ -440,7 +440,7 @@ footer {
 }
 
 .art-content {
-    background-image: url('/About_Me_Website/photos/Art_Background.jpg');
+    background-image: url('/About_Me_Website/photos/Art_Background.JPG');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -507,7 +507,7 @@ h1, h2 {
 }
 
 .travel-content {
-    background-image: url('/About_Me_Website/photos/Airplane_Window.jpg');
+    background-image: url('/About_Me_Website/photos/Airplane_Window.JPG');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
