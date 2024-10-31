@@ -128,7 +128,7 @@ body {
 }
 
 .about-content {
-    background-image: url('../photos/Saint_Lucia_Beach.jpg');
+    background-image: url('/About_Me_Website/photos/Saint_Lucia_Beach.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
