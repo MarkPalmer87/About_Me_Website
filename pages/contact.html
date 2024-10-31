@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Palmer - Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Mark Palmer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                            <li><a class="dropdown-item" href="about.html">About Me</a></li>
+                            <li><a class="dropdown-item" href="Educator.html">Educator</a></li>
+                            <li><a class="dropdown-item" href="Appraiser.html">Appraiser</a></li>
+                            <li><a class="dropdown-item" href="Programmer.html">Programmer</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInterests" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Interests
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownInterests">
+                            <li><a class="dropdown-item" href="interests.html">All Interests</a></li>
+                            <li><a class="dropdown-item" href="fountain-pens.html">Fountain Pens</a></li>
+                            <li><a class="dropdown-item" href="juggling.html">Juggling</a></li>
+                            <li><a class="dropdown-item" href="travel.html">Travel</a></li>
+                            <li><a class="dropdown-item" href="art.html">Art</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid mt-5 flex-grow-1">
+        <h1>Contact Information</h1>
+        <section id="contact-content" class="mt-4">
+            <div class="row">
+                <!-- Get in Touch section (now on the left) -->
+                <div class="col-md-6">
+                    <div class="mb-4 contact-info-box p-4 rounded">
+                        <img src="../photos/MarkLAWebPic.jpg" alt="Mark Palmer" class="img-fluid contact-photo mb-3">
+                        <h2 id="lets-connect">Let's Connect!</h2>
+                        <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                        <ul class="list-unstyled contact-list">
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <strong>Email:</strong> <span class="contact-info">markpalmer06@gmail.com</span>
+                            </li>
+                            <li>
+                                <i class="fab fa-linkedin"></i>
+                                <strong>LinkedIn:</strong> <span class="contact-info"><a href="https://www.linkedin.com/in/mark-palmer06/" target="_blank">https://www.linkedin.com/in/mark-palmer06/</a></span>
+                            </li>
+                            <li>
+                                <i class="fab fa-github"></i>
+                                <strong>GitHub:</strong> <span class="contact-info"><a href="https://github.com/MarkPalmer87" target="_blank">https://github.com/MarkPalmer87</a></span>
+                            </li>
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                                <strong>Instagram:</strong> <span class="contact-info"><a href="https://www.instagram.com/markandrewpalmer/" target="_blank">@markandrewpalmer</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Contact form (now on the right) -->
+                <div class="col-md-6 mt-5">
+                    <form id="contact-form" action="https://formspree.io/f/xanyqojq" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-center text-light py-3 mt-auto">
+        <p>&copy; 2024 Mark Palmer. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
