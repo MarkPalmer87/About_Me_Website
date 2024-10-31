@@ -440,7 +440,7 @@ footer {
 }
 
 .art-content {
-    background-image: url('./About_Me_Website/photos/Art_Background.jpg');
+    background-image: url('/About_Me_Website/photos/Art_Background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
